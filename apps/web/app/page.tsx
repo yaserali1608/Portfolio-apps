@@ -10,7 +10,7 @@ const PORTFOLIO_APPS = [
   {
     title: "FIX Protocol Decoder",
     description: "Instant parsing for Financial Information eXchange messages (4.2/4.4/5.0). Features raw message decoding and tag lookups.",
-    url: "https://portfolio-apps-rust.vercel.app/fix-parser",
+    url: "https://fix-parser.vercel.app",
     tags: ["Next.js", "TypeScript", "Fintech"],
     color: "from-blue-500 to-cyan-400",
     icon: Code2
@@ -26,7 +26,7 @@ const PORTFOLIO_APPS = [
   {
     title: "Git History Artist",
     description: "Viral tool to create pixel art on GitHub contribution graphs. Generates Bash scripts to backdate commits.",
-    url: "https://portfolio-apps-rust.vercel.app/git-art",
+    url: "https://git-art-two.vercel.app",
     tags: ["Tooling", "Git Internals", "Creative"],
     color: "from-green-500 to-emerald-400",
     icon: Cpu
