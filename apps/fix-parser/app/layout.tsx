@@ -12,8 +12,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Yaser's Portfolio",
-  description: "Senior Fintech Engineer Portfolio",
+  title: "FIX Protocol Decoder",
+  description: "Parse and visualize FIX messages",
 };
 
 export default function RootLayout({
