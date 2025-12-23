@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs and caches
+.next/
+**/.next/
+.turbo/
+**/.turbo/
+dist/
+**/dist/
+out/
+**/out/
+
+# Git
+.git/
+
+# Vercel
+.vercel/
+
+# Misc
+.DS_Store
+*.log

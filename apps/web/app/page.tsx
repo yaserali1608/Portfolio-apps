@@ -10,7 +10,7 @@ const PORTFOLIO_APPS = [
   {
     title: "FIX Protocol Decoder",
     description: "Instant parsing for Financial Information eXchange messages (4.2/4.4/5.0). Features raw message decoding and tag lookups.",
-    url: "http://localhost:3001",
+    url: "https://portfolio-apps-rust.vercel.app/fix-parser",
     tags: ["Next.js", "TypeScript", "Fintech"],
     color: "from-blue-500 to-cyan-400",
     icon: Code2
@@ -18,7 +18,7 @@ const PORTFOLIO_APPS = [
   {
     title: "High-Freq Crypto Dash",
     description: "Institutional-grade real-time market dashboard connecting to live WebSocket feeds for microsecond-level updates.",
-    url: "http://localhost:3002",
+    url: "https://portfolio-apps-rust.vercel.app/crypto-dash",
     tags: ["Zustand", "WebSockets", "React"],
     color: "from-purple-500 to-pink-500",
     icon: LineChart
@@ -26,7 +26,7 @@ const PORTFOLIO_APPS = [
   {
     title: "Git History Artist",
     description: "Viral tool to create pixel art on GitHub contribution graphs. Generates Bash scripts to backdate commits.",
-    url: "http://localhost:3003",
+    url: "https://portfolio-apps-rust.vercel.app/git-art",
     tags: ["Tooling", "Git Internals", "Creative"],
     color: "from-green-500 to-emerald-400",
     icon: Cpu
@@ -41,7 +41,15 @@ export default function Home() {
       {/* Navigation (Simple) */}
       <nav className="fixed top-0 left-0 right-0 z-50 px-8 py-6 flex justify-between items-center backdrop-blur-md bg-zinc-950/50 border-b border-white/5">
         <div className="font-bold text-xl tracking-tighter">YASER<span className="text-zinc-500">.DEV</span></div>
-        <div className="flex gap-4">
+        <div className="flex gap-3">
+          <a href="https://github.com/yaserali1608" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-zinc-900/50 border border-zinc-700 backdrop-blur-md text-white text-sm font-medium rounded-full hover:bg-zinc-800 transition-colors flex items-center gap-2">
+            <Github size={16} />
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/yaser-ali-tariq-mohammed-350865145/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-zinc-900/50 border border-zinc-700 backdrop-blur-md text-white text-sm font-medium rounded-full hover:bg-zinc-800 transition-colors flex items-center gap-2">
+            <Linkedin size={16} />
+            LinkedIn
+          </a>
           <a href="mailto:mohd.tariq00778@gmail.com" className="px-4 py-2 bg-white text-black text-sm font-bold rounded-full hover:bg-zinc-200 transition-colors">
             Contact Me
           </a>
@@ -179,8 +187,8 @@ export default function Home() {
       <footer className="max-w-6xl mx-auto px-8 py-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-zinc-600 text-sm gap-4">
         <p>© 2025 Yaser Ali Tariq Mohammed. All rights reserved.</p>
         <div className="flex gap-8">
-          <a href="#" className="flex items-center gap-2 hover:text-white transition-colors"><Github size={16} /> GitHub</a>
-          <a href="#" className="flex items-center gap-2 hover:text-white transition-colors"><Linkedin size={16} /> LinkedIn</a>
+          <a href="https://github.com/yaserali1608" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors"><Github size={16} /> GitHub</a>
+          <a href="https://www.linkedin.com/in/yaser-ali-tariq-mohammed-350865145/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors"><Linkedin size={16} /> LinkedIn</a>
           <a href="mailto:mohd.tariq00778@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors"><Mail size={16} /> Email</a>
         </div>
       </footer>
